@@ -23,13 +23,13 @@
                        </p>
   
                       <app-details [quote]="quote"></app-details>
-                      <button class="fas fa-thumbs-up text-warning" (click)="upvote(i)"></button> 
-                      <button class="fas fa-thumbs-down" (click)="downvote(i)"></button> <br> <br>
+                      <button class="glow-on-hover up" type="button" (click)="upvote(i)">UpVote</button>
+                      <button class="glow-on-hover down" type="button"(click)="downvote(i)">UpVote</button>
+                      
                       <button class="btn btn-danger" (click)="delQuote(i)">Delete</button>
                     </div>
                   </h6>
-                  <br>
-                  <!-- <a mdbBtn color="white" outline="true" class="wow fadeInLeft waves-light" data-wow-delay="0.3s" mdbWavesEffect>explore further</a> -->
+                 
                 </div>
               </div>
   

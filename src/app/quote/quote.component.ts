@@ -10,6 +10,7 @@ export class QuoteComponent implements OnInit {
   quotes = [
     new Quote("qoutes", "Eleanor Roosevelt", "Learn from the mistakes of others. You can't live long enough to make them all yourself."),
     new Quote("Life", "W.E.B. Du Bois", "The most important thing to remember is this: to be ready at any moment to give up what you are for what you might become ")
+    
   ]
     
 

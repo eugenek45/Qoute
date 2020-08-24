@@ -1,47 +1,70 @@
 
-.intro-header {
-    height: unset !important;
-  }
+
+
+
+  
   .intro-2 {
-    background: url("https://mdbootstrap.com/img/Photos/Others/img%20(42).jpg")no-repeat center center;
+    background: url("https://i.pinimg.com/originals/5d/db/aa/5ddbaa7df95aacf12e7ae5a5181d0fd7.jpg")no-repeat center center;
     background-size: cover;
   }
-  .view {
-    height: 100vh !important;
-  }
-  .top-nav-collapse {
-    background-color: #3f51b5 !important;
-  }
-  .navbar:not(.top-nav-collapse) {
-    background: transparent !important;
-  }
-  @media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse) {
-      background: #3f51b5 !important;
-    }
-  }
-  .rgba-gradient .full-bg-img {
-    background: linear-gradient(45deg, rgba(83, 125, 210, 0.4), rgba(178, 30, 123, 0.4) 100%);
-  }
-  .card {
-    background-color: rgba(229, 228, 255, 0.2);
-  }
   
-  .md-form .prefix {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-  }
-  .md-form label {
-    color: #ffffff;
-  }
-  h6 {
-    line-height: 1.7;
-  }
-  @media (max-width: 740px) {
-    .full-height,
-    .full-height body,
-    .full-height header,
-    .full-height header .view {
-      height: 1040px;
-    }
-  }
+  .glow-on-hover {
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
