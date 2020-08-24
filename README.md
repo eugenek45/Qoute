@@ -32,4 +32,4 @@ For any comments,suggestions,feedback or inquiries, contact me via email: eugene
 Make contributions to the code.
 
 ### License
-This project is licensed under the MIT Open Source license Copyright (c) 2019. Peter Wachira
+This project is licensed under the MIT Open Source license Copyright (c) 2020. Eugene Kiprotich.
