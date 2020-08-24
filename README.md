@@ -7,10 +7,10 @@ An application that enables users to add quotes,delete quotes.You can also be ab
 ### Behaviour Driven Development(BDD)
 Input |	Ouput
 --------------------------------------------------------------------------------------
-|User clicks Post Quote |	Quote form displays with input fields for Author, Publisher|
-|User Clicks Delete     |	The quote is purged from view                              |
-|User clicks Upvote	    | upvote is incremented value by 1 on each click               |
-|User clicks Downvote   |	downvote is decremented value by 1 on each click           |
+User clicks Post Quote 	Quote form displays with input fields for Author, Publisher
+User Clicks Delete     	The quote is purged from view                              
+User clicks Upvote	     upvote is incremented value by 1 on each click               
+User clicks Downvote   	downvote is decremented value by 1 on each click           
 -----------------------------------------------------------------------------------------
 ## Setup/Installation requirements
 Clone or download and unzip the repository from github, https://github.com/eugenek45/Qoute.
