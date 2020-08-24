@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Qoute"
+    }
+  },
+  "defaultProject": "Qoute",
+  "cli": {
+    "analytics": "d55fbfc8-e409-45d1-a6ae-7c0837adfccb"
+  }
 }
