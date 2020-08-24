@@ -21,10 +21,12 @@ To view the page click on the link below
 
 ### Technologies Used
 Angular CLI
-Known Bugs
+
+ ## Known Bugs
 There are no known bugs currently. The page works as expected.
-Support and Contact Details
-For any comments,suggestions,feedback or inquiries, contact me via email: pwachira900@gmail.com
+
+## Support and Contact Details
+For any comments,suggestions,feedback or inquiries, contact me via email: eugenekiprotich0@gmail.com.
 
 Make contributions to the code.
 
