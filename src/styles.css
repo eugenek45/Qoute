@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+ body{
+    background: url("https://i.pinimg.com/originals/5d/db/aa/5ddbaa7df95aacf12e7ae5a5181d0fd7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    overflow-y: scroll;
+ }
  
